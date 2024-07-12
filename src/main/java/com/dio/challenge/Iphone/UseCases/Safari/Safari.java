@@ -1,11 +1,11 @@
 package com.dio.challenge.Iphone.UseCases.Safari;
 
-import com.dio.challenge.Iphone.Repositories.SafariRepositor;
+import com.dio.challenge.Iphone.Repositories.SafariRepository;
 
 public class Safari {
-  private SafariRepositor safariRepositor;
+  private SafariRepository safariRepositor;
 
-  public Safari(SafariRepositor safariRepositor) {
+  public Safari(SafariRepository safariRepositor) {
   }
 
   public void openPage(String url) {
