@@ -1,9 +1,9 @@
 package com.dio.challenge.Iphone.DTO;
 
 public interface SafariDTO {
-  public void exibirPagina(String url);
+  public String exibirPagina(String url);
 
-  public void adicionarNovaAba();
+  public String adicionarNovaAba();
 
-  public void atualizarPagina();
+  public String atualizarPagina();
 }

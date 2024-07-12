@@ -3,16 +3,16 @@ package com.dio.challenge.Iphone.Repositories;
 import com.dio.challenge.Iphone.DTO.SafariDTO;
 
 public class SafariRepository implements SafariDTO {
-  public void exibirPagina(String url) {
-    System.out.println("Exibindo página: " + url);
+  public String exibirPagina(String url) {
+    return "Exibindo página: " + url;
   }
 
-  public void adicionarNovaAba() {
-    System.out.println("Nova aba adicionada");
+  public String adicionarNovaAba() {
+    return "Nova aba adicionada";
   }
 
-  public void atualizarPagina() {
-    System.out.println("Página atualizada");
+  public String atualizarPagina() {
+    return "Página atualizada";
   }
 
 }

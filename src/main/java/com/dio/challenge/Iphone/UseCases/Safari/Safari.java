@@ -3,20 +3,21 @@ package com.dio.challenge.Iphone.UseCases.Safari;
 import com.dio.challenge.Iphone.Repositories.SafariRepository;
 
 public class Safari {
-  private SafariRepository safariRepositor;
+  private SafariRepository safariRepository;
 
-  public Safari(SafariRepository safariRepositor) {
+  public Safari(SafariRepository safariRepository) {
+    this.safariRepository = safariRepository;
   }
 
-  public void openPage(String url) {
-    this.safariRepositor.exibirPagina(url);
+  public String openPage(String url) {
+    return this.safariRepository.exibirPagina(url);
   }
 
-  public void openNewTab(){
-    this.safariRepositor.adicionarNovaAba();
+  public String openNewTab(){
+    return this.safariRepository.adicionarNovaAba();
   }
 
-  public void refreshPage() {
-    this.safariRepositor.atualizarPagina();
+  public String refreshPage() {
+    return this.safariRepository.atualizarPagina();
   }
 }

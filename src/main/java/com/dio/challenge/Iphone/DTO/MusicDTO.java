@@ -1,9 +1,9 @@
 package com.dio.challenge.Iphone.DTO;
 
 public interface MusicDTO {
-  public void tocar();
+  public String tocar();
 
-  public void pausar();
+  public String pausar();
 
-  public void selecionarMusica(String musica);
+  public String selecionarMusica(String musica);
 }

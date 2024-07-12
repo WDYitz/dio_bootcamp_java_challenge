@@ -6,17 +6,18 @@ public class Music {
   private MusicRepository musicRepository;
 
   public Music(MusicRepository musicRepository) {
+    this.musicRepository = musicRepository;
   }
 
-  public void playSong() {
-    this.musicRepository.tocar();
+  public String playSong() {
+     return this.musicRepository.tocar();
   }
 
-  public void pauseSong() {
-    this.musicRepository.pausar();
+  public String pauseSong() {
+    return this.musicRepository.pausar();
   }
 
-  public void selectSong(String song) {
-    this.musicRepository.selecionarMusica(song);
+  public String selectSong(String song) {
+    return this.musicRepository.selecionarMusica(song);
   }
 }

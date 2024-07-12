@@ -6,17 +6,18 @@ public class PhoneCall {
   private PhoneCallRepository phoneCallRepository;
 
    public PhoneCall(PhoneCallRepository phoneCallRepository) {
+    this.phoneCallRepository = phoneCallRepository;
   }
 
-  public void call(String number) {
-    this.phoneCallRepository.ligar(number);
+  public String call(String number) {
+    return this.phoneCallRepository.ligar(number);
   }
 
-  public void aswer() {
-    this.phoneCallRepository.atender();
+  public String aswer() {
+    return this.phoneCallRepository.atender();
   }
 
-  public void startVoiceMail() {
-    this.phoneCallRepository.iniciarCorreioVoz();
+  public String startVoiceMail() {
+    return this.phoneCallRepository.iniciarCorreioVoz();
   }
 }
