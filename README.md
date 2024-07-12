@@ -9,5 +9,5 @@ abrangendo suas funcionalidades como Reprodutor Musical, Aparelho Telefônico e 
 
 
 `Diagrama UML (Lucid Chart) - Dependency Injection`
-[Diagrama_UML](https://lucid.app/lucidchart/cdececcc-8ae7-476f-8731-c90d7141675d/edit?viewport_loc=-270%2C-108%2C3317%2C1887%2CHWEp-vi-RSFO&invitationId=inv_c17a5e73-2678-447e-b594-2a2d097b7dcd)
+[Diagrama_UML](https://lucid.app/lucidchart/cdececcc-8ae7-476f-8731-c90d7141675d/edit?viewport_loc=10%2C2%2C2612%2C2058%2CHWEp-vi-RSFO&invitationId=inv_c17a5e73-2678-447e-b594-2a2d097b7dcd)
 
