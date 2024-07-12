@@ -3,7 +3,8 @@
 `Aplicando alguns principios S.O.L.I.D no Java`
 
 ```
-Desafio, Desenvolver "Features" do iPhone, abrangendo suas funcionalidades como Reprodutor Musical, Aparelho Telefônico e Navegador na Internet.
+Desafio, Desenvolver "Features" do iPhone,
+abrangendo suas funcionalidades como Reprodutor Musical, Aparelho Telefônico e Navegador na Internet.
 ```
 
 
